@@ -6,14 +6,14 @@ This repository contains all assignments for the course "Bayesian Networks" (NWI
 
 ### Learning Objectives
 
-	* Know what a Bayesian network looks like
-	* Understand what a Bayesian network represents
+* Know what a Bayesian network looks like
+* Understand what a Bayesian network represents
 
 ### Lecture Outline
 
-	* Optimal Bayes
-	* Naive Bayes
-	* Bayesian Networks	
+* Optimal Bayes
+* Naive Bayes
+* Bayesian Networks	
 
 
 
