@@ -16,6 +16,26 @@ This repository contains all assignments for the course "Bayesian Networks" (NWI
 * Naive Bayes
 * Bayesian Networks	
 
+### Notes
+
+* This course should rather be called "**Probabilistic graphical models** (PGMs)" because Bayesian networks is just a subset of the topics covered in the course
+* There are different kinds of PGMs:
+	* Directed PGMs, also known as Bayesian networks
+	* Gaussian PGMs
+	* Undirected PGMs
+	* PGMs with **latent variables** (from Latin: present participle of lateo (“lie hidden”), as opposed to observable/indicator variables. Also called hidden, conceptual or hypothetical variables. see: http://www.theanalysisfactor.com/what-is-a-latent-variable/)
+* Examples of latent variables: Healthiness, Democratic rule, Intelligence.
+* How does a directed PGM (Bayesian Network) represents a **joint probability distribution**?
+* **Confounding factors* ("Störfaktor") also called confounder, confounding variable or third variable is a variable that influences both the dependent variable and independent variable causing a spurious association. Confounding is a causal concept, and as such, cannot be described in terms of correlations or associations (see: https://en.wikipedia.org/wiki/Confounding and https://explorable.com/confounding-variables)
+* Once built, PGMS can be used for many purposes like:
+	* **Classification**, e.g. for diagnosis
+	* **Prediction**, e.g. the result of an operation
+	* **Planning**, e.g. an optimal schedule
+	* **Reasoning**, e.g. answering "what-if" queries
+*	
+
+
+
 
 
 ## Lecture 2 - Conditional Independence and d-Separation
