@@ -30,7 +30,6 @@
   Lisa Boonstra\\ s3018547\\     \texttt{l.boonstra@student.ru.nl}
 }
 \date{\today}
-\date{\today}
 
 \begin{document}
 \maketitle
@@ -38,7 +37,7 @@
 
 \subsection*{Introduction}
 
-Cardiovascualar diseases is the leading cause of premature death in the modern world, including heart attacks, strokes and other circulatory diseases.
+Cardiovascular diseases is the leading cause of premature death in the modern world, including heart attacks, strokes and other circulatory diseases.
 The global number of deaths caused by cardiovascular diseases increased by 41\% between 1990 and 2013 with 12.3 million to 17.3 million deaths. A number that is expected to grow to more than 23.6 million by 2030.
 The American Heart Association gauges the cardiovascular health of the nation by tracking seven key health factors and behaviours that increase risks for heart disease and stroke:
 
@@ -76,6 +75,45 @@ In this project, we will build on publicly available data from the Machine Learn
 The project will use data from the "Machine Learning Repository" (\url{http://archive.ics.uci.edu/ml/datasets/heart+Disease}), which documents certain attributes of hospital patients who have been diagnosed with some kind of heart disease or the absence of it.\\
 The original dataset consists of contributions from fours different institutes which produces 920 entries with 76 attributes. Each entry represents a patient who has been given a score for having some kind of heart disease: 0 for non-existent and 1 to 4 with increasing chance of having a heart disease. Prior published experiments refer to using only a subset of 14 of the original 76 attributes. For feasibility reasons and because prior research has shown that those 14 attributes are sufficient, our Bayesian Network will be build using the 14 attributes: age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise induced angina, ST depression induced by exercise relative to rest, the slope of the peak exercise ST segment, height at peak exercise, inherited blood disorders, angiographic disease status.
 
+\begin{center}
+\begin{table}
+    \begin{tabular}{ | l | l | l | l | l |}
+    \hline
+    Variable name & Variable type & Number of levels/range & Changed variable to & Number of levels \\ \hline
+     age & continuous & 29-77  & ordinal & 4 \\ \hline
+     sex & categorical & 2 & N/A & N/A\\ \hline
+     cp	& categorical & 4 & N/A & N/A\\ \hline
+     trestbps & continuous & 94-200 & ordinal & 4\\ \hline
+     chol & continuous & 126 & ordinal & 4 \\ \hline
+     fbs & ordinal & 2 & N/A & N/A \\ \hline
+     restecg & categorical & 3 & N/A & N/A \\ \hline
+     thalach & continuous & 71-202 & ordinal & 4 \\hline
+     exang & categorical & 2 & N/A & N/A \\ \hline
+     oldpeak & continuous & 0-6.2 & ordinal & 4\\ \hline
+     slope & categorical & 3 & N/A & N/A \\ \hline
+     ca & ordinal & 4 & N/A & N/A \\ \hline
+     thal & categorical & 3 & N/A & N/A \\ \hline
+     num & categorical & 4 & categorical & 2 \\ \hline
+    \end{tabular}
+	\caption{The variables of the heart disease data set.}
+	\label{tab:variables} 
+\end{table}
+\end{center}
+
+\begin{center}
+\begin{table}
+    \begin{tabular}{ | l | l | l | l | l |}
+    \hline
+    age & trestbps & chol & thalach & oldpeak \\ \hline
+     (29,48] & (94,120] & (126,211]  & (71,133] & (0,0.1] \\ \hline
+     (48,56] & (120,130] & (211,243] & (133,153] & (0.1,1.4]\\ \hline
+     (56,61] & (130,140] & (243,276] & (153,166] & (1.4,6.2]\\ \hline
+     (61,77] & (140,200] & (276,564] & (166,202] & \\ \hline
+    \end{tabular}
+    \caption{ Continuous variables binned and their ranges.}
+    \label{tab:bin}
+   \end{table}
+\end{center}
 
 \subsection*{Implementation Plan}
 
