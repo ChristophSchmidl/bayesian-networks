@@ -8,13 +8,13 @@
 
 Question Topics:
 
-	* Bayesian networks basics (14 points)
-	* Binary Bayesian Networks (28 points)
-	* Inference (9 points)
-	* Markov Equivalence (9 points)
-	* Structure Learning (18 points)
-	* Causality (12 points)
-	* Constraints with unobserved variables (10 points)
+* Bayesian networks basics (14 points)
+* Binary Bayesian Networks (28 points)
+* Inference (9 points)
+* Markov Equivalence (9 points)
+* Structure Learning (18 points)
+* Causality (12 points)
+* Constraints with unobserved variables (10 points)
 
 
 
