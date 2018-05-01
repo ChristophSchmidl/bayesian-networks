@@ -15,8 +15,7 @@ Lecture topics:
 * (Tutorial 1)
 * Exact Inference
 * Approximate Inference
-	* Factor graphs and the sum-product algorithm by F. R. Kschischang, B. J. Frey, H. -A. Loeliger. IEEE Transactions on Information Theory 47(2):498–519,
-2001.
+	* Factor graphs and the sum-product algorithm by F. R. Kschischang, B. J. Frey, H. -A. Loeliger. IEEE Transactions on Information Theory 47(2):498–519, 2001.
 * Structural Equation Models
 * Latent Variables
 * Markov Equivalence
