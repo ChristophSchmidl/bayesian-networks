@@ -4,7 +4,7 @@
 ## Lectures
 
 
-**11 Lectures and 3 tutorials in total**
+**11 Lectures and 2 tutorials in total**
 
 Lecture topics:
 
@@ -45,7 +45,18 @@ Question topics:
 
 ### Question 1 - Bayesian networks basics (14 points)
 
-
+* What does **DAG** stand for?
+* Factorization of a probability density
+* Kinship terminology
+	* **Parent**
+	* **Child**
+	* **Descendant**
+	* **Ancestor**
+* Terms in a factorization. How does it change when...
+* Smallest general upper bound number of parameters for encoding a corresponding probability density factorization
+* Based on a graphical representation of a bayesian network, list all variables that match the description
+	* Children of X
+	* Ancestors of Y
 
 
 
