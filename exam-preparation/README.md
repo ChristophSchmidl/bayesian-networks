@@ -1,12 +1,36 @@
 # Bayesian Networks - Exam Preparation
 
 
+## Lectures
+
+
+**11 Lectures and 3 tutorials in total**
+
+Lecture topics:
+
+* General Introduction
+* Conditional Independence
+* Managing Network Complexity
+	* Tutorial 1
+* Exact Inference
+* Approximate Inference
+* Structural Equation Models
+* Latent Variables
+* Markov Equivalence
+* Structure Learning
+	* Tutorial 2
+* Causality I
+* Causality II	
+
+
+
+
 
 ## Mock Exam
 
 **100 points in total**
 
-Question Topics:
+Question topics:
 
 * Bayesian networks basics (14 points)
 * Binary Bayesian Networks (28 points)
