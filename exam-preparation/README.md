@@ -61,17 +61,16 @@ Question topics:
 
 
 
-
-
-
-
-
-
 ### Question 2 - Binary Bayesian Networks (28 points)
 
-
-
-
+* Given a Bayesian Network of binary variables, how many parameters are needed to represent it using **conditional probability tables**?
+* How does the number of parameters change if variables become ternary instead of binary?
+* Listing different **d-separation** statements implied by a Bayesian Network
+* **Joint probability density** table
+* Drawing a Bayesian Network from a joint probability density table
+* Complete certain columns in a probability table to that it does not constradict consistency with a certain d-separation statement
+* Applying the **divorcing technique** in order to reduce parameters
+* Scenarios when the **binning technique** could be applied in order to reduce the number of parameters
 
 
 
